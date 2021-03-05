@@ -45,7 +45,6 @@ client.on("message", function(message) {
                     }
                     else{
                         too_short_count += 1
-                        console.log("I am here");
                         tries++;
                     }
                 }
